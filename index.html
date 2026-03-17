@@ -6,29 +6,25 @@
         <meta name="description"content="This Is Description For My First Page"/>  
         <meta name="author" content="Ammar"/> 
         <style>
-            body {
-                background-color: rgb(184, 228, 228);
-            }
-            h1{
-                text-align: center;
-                background-color: dodgerblue;
-            }
+        
            
-           
+        
         </style>
         <script></script>
-        <link rel="stylesheet"href=""/>   
+        <link rel="stylesheet"href="style.css"/>   
     </head>
     <body>
-        <h1>REGISTRATION FORM</h1>
-        <form>
+        <div class="form-container">
+       <form class="form">
+    <h2>Welcome </h2>
+        
             <div>
         <label>First Name</label><label><br>
         <input type="text" required placeholder="First name" name="User">
             
-        
-        <input type="text" required placeholder="Last name" name="User">
         <label>Last Name</label>
+        <input type="text" required placeholder="Last name" name="User">
+        
         <br>
             </div>
         <div>
@@ -43,15 +39,9 @@
         <label>Country</label><br>
         <input type="text" required placeholder="Country" name="Country">
     </div>
-    <p>gender</p>
-    <div>
-        <input type="radio" required  name="gender">
-        <label>Male</label>
-        <input type="radio" required  name="gender">
-        <label>FeMale</label>
-    </div>
+    
     <input type="submit" value="REGISTRATION NOW">
         </form>
-
+</div>
     </body>
     </html>
